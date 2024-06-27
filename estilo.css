@@ -213,9 +213,12 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
-
-.download_button a a:hover {
-    color: none;
+.download_button a:hover {
+    color: white;
+}
+.download_button a {
+    color: white;
+    text-decoration: none;
 }
 /* SECCION S K I L L S */
 .skills{
