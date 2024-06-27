@@ -213,6 +213,10 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+
+.download_button a a:hover {
+    color: none;
+}
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
