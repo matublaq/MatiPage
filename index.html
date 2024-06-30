@@ -355,17 +355,21 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
+                <form>
+                    <div class="col">
+                        <form action="mailto: mati.blaquier@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" placeholder="Tú Nombre">
+                            <input type="text" placeholder="Número telefónico">
+                            <input type="email" placeholder="Dirección de correo">
+                            <input type="text" placeholder="Tema">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button type="submit">
+                                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </form>
+                    </div>
+                </form>
                 <!-- Mapa -->
                 <div class="col">
                     <img src="img/ubication2.png" alt="">
