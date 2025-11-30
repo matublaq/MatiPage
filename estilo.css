@@ -281,6 +281,15 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .excelgooglesheets{
+    width: 0%;
+    animation: 2s excelgooglesheets forwards;
+}
+@keyframes excelgooglesheets {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
 .skills .skill .python{
     width: 0%;
     animation: 2s python forwards;
@@ -290,50 +299,33 @@ html{
     100%{width: 80%;}
 }
 
-.skills .skill .dataprocess{
+.skills .skill .dataanalyticsprocess{
     width: 0%;
-    animation: 2s dataprocess forwards;
+    animation: 2s dataanalyticsprocess forwards;
 }
-@keyframes dataprocess {
+@keyframes dataanalyticsprocess {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .basededatossql{
+    width: 0%;
+    animation: 2s basededatossql forwards;
+}
+@keyframes basededatossql {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .softwaredeveloper{
+    width: 0%;
+    animation: 2s softwaredeveloper forwards;
+}
+@keyframes softwaredeveloper {
     0%{width: 0%;}
     100%{width: 70%;}
 }
 
-.skills .skill .datagraph{
-    width: 0%;
-    animation: 2s datagraph forwards;
-}
-@keyframes datagraph {
-    0%{width: 0%;}
-    100%{width: 65%;}
-}
-
-.skills .skill .machinelearning{
-    width: 0%;
-    animation: 2s machinelearning forwards;
-}
-@keyframes machinelearning {
-    0%{width: 0%;}
-    100%{width: 60%;}
-}
-
-.skills .skill .sql{
-    width: 0%;
-    animation: 2s sql forwards;
-}
-@keyframes sql {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
 /*
 .skills .skill .proyect{
     width: 0%;

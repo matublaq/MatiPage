@@ -21,12 +21,12 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("python");
-        habilidades[1].classList.add("dataprocess");
-        habilidades[2].classList.add("datagraph");
-        habilidades[3].classList.add("machinelearning");
-        habilidades[4].classList.add("sql");
-        habilidades[5].classList.add("htmlcss");
+        habilidades[0].classList.add("excelgooglesheets");
+        habilidades[1].classList.add("python");
+        habilidades[2].classList.add("dataanalyticsprocess");
+        habilidades[3].classList.add("basededatossql");
+        habilidades[4].classList.add("softwaredeveloper");
+        //habilidades[5].classList.add("htmlcss");
         //habilidades[6].classList.add("proyect");
     }
 }
